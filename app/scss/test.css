@@ -1,0 +1,247 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
+
+*{
+  padding: 0px;
+  margin: 0px;
+  text-decoration: none;
+  outline: none;
+  font-family: 'Montserrat', sans-serif;
+}
+
+header {
+  padding: 20px 40px;
+  margin: 0px auto;
+  background-color: whitesmoke;
+  display: flex;
+  justify-content: space-between;
+}
+
+header .logo {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+header .nav span,
+header .menu-btn i {
+  margin-right: 30px;
+  color: #575757;
+  transition: color 450ms ease;
+}
+
+header .nav span:hover,
+header .menu-btn i:hover {
+  color:black;
+  cursor:pointer;
+}
+
+.block-1 {
+  height: 95vh;
+  background-image: url('https://i1.pickpik.com/photos/332/211/697/apple-computer-browser-research-preview.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-blend-mode: multiply;
+  background-color: #3b3b3b;
+  color: whitesmoke;
+  text-align: center;
+}
+
+.block-1 h1 {
+  padding-top: 250px;
+  width: 800px;
+  font-size: 45px;
+  margin: 0 auto;
+}
+
+.block-1 h3 {
+  margin: 50px auto;
+  text-transform: uppercase;
+}
+
+.block-1 button,
+.block-3 button {
+  padding: 15px 25px;
+  border-radius: 5px;
+  cursor: pointer;
+  background: #ffc107;
+  color: #704404;
+  border: 0px;
+  font-weight: bold;
+  transition: background 600ms ease;
+}
+
+
+.block-1 button i,
+.block-3 button i {
+  margin-left: 5px;
+  transition: margin 600ms ease;
+}
+
+.block-1 button:hover,
+.block-3 button:hover
+ {background: #ff9800}
+
+.block-1 button:hover i,
+.block-3 button:hover i {
+  margin-left: 15px;
+  color: #fff;
+}
+
+
+.block-2 {
+  background-color:whitesmoke;
+}
+
+.block-2 .services {
+  width: 70%;
+  padding: 40px 15%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.block-2 .services div {
+  width: 300px;
+  margin : 20px;
+  text-align: center;
+}
+
+.block-2 .services div h3 {
+  margin: 20px;
+  font-size: 25px;
+}
+
+.block-2 .services div span {color: #575757}
+
+.block-3 {
+  height: 75vh;
+  background-image: url('https://data.whicdn.com/images/295808597/original.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-blend-mode: multiply;
+  background-color: #3b3b3b;
+  color: whitesmoke;
+  text-align: center;
+}
+
+.block-3 h2 {
+  padding-top: 300px;
+  font-size: 40px;
+}
+
+.block-3 input {
+  width: 300px;
+  padding: 15px 25px;
+  border-radius: 10px;
+  text-indent: inherit;
+  font-size: 14px;
+  border: 0px;
+  margin-top: 30px;
+}
+
+
+footer {
+  width: 100% - 60px;
+  padding: 50px 5%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+footer .up-btn,
+footer .social-btn i {
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  border-radius: 50%;
+  background: #eee;
+  border: 1px solid silver;
+  color: #3b3b3b;
+  cursor: pointer;
+  transition: transform 600ms ease;
+}
+
+footer .up-btn:hover,
+footer .social-btn i:hover {
+  transform: translateY(-10px);
+}
+
+footer .social-btn i {
+  display: inline-block;
+  margin-left: 15px;
+}
+
+footer span {
+  margin-left: 180px;
+}
+
+.fixed {
+  position: sticky;
+  border: 1px solid silver;
+  top: 0;
+  left: 0;
+}
+
+#hidden-menu {
+  width:300px;
+  height: 100vh;
+  text-align: center;
+  background:#fff;
+  position: fixed;
+  top: 0;
+  right: -350px;
+  z-index: 10;
+  padding: 25px 15px;
+  background-color: whitesmoke;
+}
+
+#hidden-menu span {
+  float:right;
+  margin-right: 15px;
+  cursor: pointer;
+  font-size: 40px;
+  transition: color 600ms ease;
+}
+
+#hidden-menu span:hover {color:#ccc}
+
+#hidden-menu h2 {
+  margin-top: 100px;
+  font-size: 25px;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+#hidden-menu ul li {
+  margin-top:10px;
+  list-style: none;
+  font-size: 20px;
+  font-weight: bold;
+  cursor:pointer;
+  color:#333;
+  transition: color 300ms ease;
+}
+
+#hidden-menu ul li:hover{color:#ccc}
+
+.gallery {
+  width: 70%;
+  padding: 50px 15%;
+  padding-bottom: 100px;
+  text-align: center;
+}
+
+#slider {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+#slider div img {width:100%}
+
+#slider div {
+  margin-top: 10px;
+  margin-right: 25px;
+}
